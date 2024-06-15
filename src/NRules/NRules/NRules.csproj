@@ -19,6 +19,7 @@
     <ProjectReference Include="..\NRules.RuleModel\NRules.RuleModel.csproj" />
   </ItemGroup>
 
+  <Import Project="$(SolutionDir)..\..\CustomBuildSettings.targets" />
   <Import Project="..\InternalsVisibleTo.props" />
   <Import Project="..\..\Nullable.props" />
 

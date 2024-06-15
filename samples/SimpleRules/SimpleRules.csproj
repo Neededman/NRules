@@ -10,14 +10,15 @@
 
   <ItemGroup>
     <Reference Include="NRules">
-      <HintPath>..\..\build\bin\NRules\netstandard2.1\NRules.dll</HintPath>
+      <HintPath>$(OutputPath)NRules.dll</HintPath>
     </Reference>
     <Reference Include="NRules.Fluent">
-      <HintPath>..\..\build\bin\NRules\netstandard2.1\NRules.Fluent.dll</HintPath>
+      <HintPath>$(OutputPath)NRules.Fluent.dll</HintPath>
     </Reference>
     <Reference Include="NRules.RuleModel">
-      <HintPath>..\..\build\bin\NRules\netstandard2.1\NRules.RuleModel.dll</HintPath>
+      <HintPath>$(OutputPath)NRules.RuleModel.dll</HintPath>
     </Reference>
   </ItemGroup>
 
+  <Import Project="$(SolutionDir)..\..\CustomBuildSettings.targets" />
 </Project>

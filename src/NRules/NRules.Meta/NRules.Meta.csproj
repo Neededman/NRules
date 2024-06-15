@@ -17,4 +17,5 @@
     <ProjectReference Include="..\NRules.Fluent\NRules.Fluent.csproj" />
   </ItemGroup>
 
+  <Import Project="$(SolutionDir)..\..\CustomBuildSettings.targets" />
 </Project>

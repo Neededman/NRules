@@ -21,4 +21,5 @@
     <ProjectReference Include="..\..\NRules\NRules.csproj" />
   </ItemGroup>
 
+  <Import Project="$(SolutionDir)..\..\CustomBuildSettings.targets" />
 </Project>

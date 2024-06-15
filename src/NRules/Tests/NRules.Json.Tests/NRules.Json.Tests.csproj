@@ -18,4 +18,5 @@
     <ProjectReference Include="..\..\NRules.Json\NRules.Json.csproj" />
   </ItemGroup>
 
+  <Import Project="$(SolutionDir)..\..\CustomBuildSettings.targets" />
 </Project>
